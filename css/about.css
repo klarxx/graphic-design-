@@ -1,0 +1,65 @@
+body{
+  background-image: url("https://download.unsplash.com/3/www.madebyvadim.com.jpg");
+  background-size: cover;
+}
+.name{
+  font-size: 30px;
+  font-style: italic;
+  padding-left: 10px;
+  text-align:right;
+}
+h1{
+  font-size: 30px;
+  font-style: italic;
+}
+.age{
+  font-size:30px;
+  font-family: 'Playfair Display', serif;
+  padding-left: 10px;
+}
+.des{
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  color: black;
+  padding-left: 10px;
+
+}
+.name2{
+  font-size: 30px;
+  font-style: italic;
+}
+.age2{
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+}
+.des2{
+  font-size:25px;
+  font-family: 'Playfair Display', serif;
+  text-align: left;
+}
+.box{
+  height:300px;
+  width:300px;
+  background-color: #FFB894;
+  position: fixed;
+  top:15px;
+  margin: 76px auto;
+  padding: 30px;
+}
+.box2{
+  height:200px;
+  width:300px;
+  position: fixed;
+  left:800px;
+  background-color: #FFB894;
+  top:15px;
+  margin: 76px auto;
+  padding: 30px;
+}
+.overall{
+    background-color: #FFB894;
+    width:900px;
+    height:450px;
+    margin: 76px auto;
+    padding: 30px;
+}

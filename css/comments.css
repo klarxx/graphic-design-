@@ -1,0 +1,78 @@
+body{
+  background-image: url("https://download.unsplash.com/3/www.madebyvadim.com.jpg");
+  background-size: cover;
+  padding: 0;
+  margin 0;
+  overflow-y: scroll;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+#nav_wrapper{
+  width: 960px;
+  marign: 0 auto;
+  text-align: right;
+}
+  #navbar ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+}
+#navbar ul li{
+  display: inline-block;
+}
+#navbar ul li a, visited{
+  color: black;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+#navbar ul li a:hover{
+color: rgb(204, 204, 255);
+text-decoration: none;
+}
+#navbar ul li:hover ul{
+  display: block;
+}
+#navbar ul ul{
+  display: none;
+  position: absolute;
+}
+#navbar ul ul li{
+  display:block;
+}
+.arrow {
+  background-image: url("../img/arrowdown.png");
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  margin: 0 auto;
+}
+ form{
+   text-align: center;
+   font-size: 30px;
+   color: white;
+ }
+ input{
+   font-size: 35px
+   vertical-align:bottom;
+   width: 600;
+   padding: 10px;
+   margin-bottom:15px;
+
+ }
+ textarea{
+   width: 600px;
+   resize: none;
+   height: 300px;
+   padding: 10px;
+ }
+ .content{
+   width: 800px;
+   margin: 26px auto;
+   padding: 30px;
+ }
+ #submit{
+   margin-top: 25px;
+   display: inline-block;
+ }
