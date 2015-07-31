@@ -1,0 +1,110 @@
+body{
+  margin: 0px;
+}
+.h{
+  background-image: url("https://download.unsplash.com/uploads/14115120538776712c565/a699942a");
+  height:547px;
+  width:50%;
+  background-size: cover;
+  position: fixed;
+  top:0;
+  z-index: -1;
+  right:50%;
+  opacity:0.85;
+
+}
+.k{
+  background-image: url("https://download.unsplash.com/34/kVEPcWcfSA2tgOpRz9Za__DSC0765.jpg");
+  height:547px;
+  width:50%;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  left: 50%;
+  opacity: 0.85;
+}
+.second{
+  top:600px;
+  left:10px;
+  height:400px;
+}
+.third{
+  top:600px;
+  right:100px;
+  height:400px;
+}
+.logo{
+  font-size: 70px;
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Kaushan Script', cursive;
+    text-shadow: 2px 2px 5px white;
+    margin-bottom: 0;
+}
+.mean{
+  font-size: 20px;
+  text-align: center;
+  color: black;
+
+}
+.fourth{
+  background-image: url("https://download.unsplash.com/photo-1428223501723-d821c5d00ca3");
+  background-size: cover;
+  width:100%;
+  height:500px;
+  top:1000px;
+  left:0px;
+  margin-top:50px;
+  text-align: center;
+  padding-top: 400px;
+  padding-left: 50px;
+}
+.portfolio{
+  font-size: 80px;
+font-family: 'Kaushan Script', cursive;
+  color:black;
+  text-decoration:none;
+    text-shadow: 2px 2px 5px white;
+}
+.fifth{
+  background-image: url("https://download.unsplash.com/36/fVSwTG05QIaE9FN7tLQ5_IMG_1122.jpg");
+  background-size:cover;
+  height: 500px;
+  top:1590px;
+  width:100%;
+  left:0px;
+  text-align: center;
+  padding-top: 400px;
+}
+.contest{
+  font-size: 80px;
+font-family: 'Kaushan Script', cursive;
+  color:black;
+  text-decoration:none;
+    text-shadow: 2px 2px 5px white;
+}
+.two{
+  background-color: white;
+  margin-top: 300px;
+  padding-top: 50px;
+
+}
+.six{
+  background-image: url("https://download.unsplash.com/uploads/14127101912749510b8ed/82743738");
+  background-size: cover;
+  height:500px;
+  font-size: 50px;
+font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  padding-top: 200px;
+}
+.about{
+  text-decoration: none;
+  color:black;
+    text-shadow: 2px 2px 5px white;
+}
+#navbar{
+  padding-left: 10px;
+}

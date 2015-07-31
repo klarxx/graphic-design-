@@ -1,0 +1,48 @@
+body{
+  margin 0;
+  overflow-y: scroll;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+#nav_wrapper{
+  width: 960px;
+  marign: 0 auto;
+  text-align: right;
+  position: fixed;
+  top:0;
+}
+  #navbar ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#navbar ul li{
+  display: inline-block;
+}
+#navbar ul li a, visited{
+  color: black;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+#navbar ul li a:hover{
+color: rgb(204, 204, 255);
+text-decoration: none;
+}
+#navbar ul li:hover ul{
+  display: block;
+}
+#navbar ul ul{
+  display: none;
+  position: absolute;
+}
+#navbar ul ul li{
+  display:block;
+}
+.arrow {
+  background-image: url("../img/arrowdown.png");
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  margin: 0 auto;
+}
